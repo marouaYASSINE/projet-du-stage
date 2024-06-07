@@ -44,3 +44,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Styles for screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    min-height: 80vh;
+    transition: 0.5s;
+  }
+}
+
+/* Styles for screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    transition: 0.5s;
+  }
+}
+
