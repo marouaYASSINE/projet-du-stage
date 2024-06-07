@@ -1,0 +1,33 @@
+.galerie-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .titllee h1{
+    position: relative;
+    transform: translate(43%,280%);
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    color:  #022473;
+  }
+  
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espace entre les images */
+    transform: translateY(50%);
+  }
+  
+  .galerie img {
+    width: 150px; /* Ajustez la taille des images selon vos besoins */
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+   
+  }
+  

@@ -1,0 +1,106 @@
+.parte{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background: white;
+    color: black;
+    transform: translateY(-20%);
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Start slightly below its final position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* End at its final position */
+    }
+  }
+  
+  .introd {
+    justify-content: space-between;
+    align-items: flex-end;
+    animation: fadeIn 2s ease-in-out forwards; /* Apply the fadeIn animation */
+  }
+  
+.titlet{
+    position: relative;
+    color: #022473;
+    text-align: center;
+    right: -30%;
+    top:37px;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+}
+
+.top >img{
+    width: 250px;
+    right: -90px;
+    top:-37px;
+}
+
+.im1{
+    position: relative;
+    transform: translate(-300px,10px);
+
+}
+
+.im2{
+    position: relative;
+    left: 400px;
+    top: 37px;
+    transform: translate(-140px,40px);
+}
+
+
+
+
+.textE{
+    width: 550px;
+    position: relative;
+    right: -350px;
+    top:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100%;
+    
+}
+
+.textE2{
+    width: 650px;
+    position: relative;
+    right: -300px;
+    top:20px;
+    transform: translate(5px,-90px); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+
+.im3{
+    width: 100px;
+    height: 50px ;
+    right: 25px;
+    transform: translate(170px,-117px);    
+}
+.im4{
+    width: 325px;
+    height: 300px ;
+    transform: translate(200px,10px);
+}
+.im5{
+    width: 200px;
+    height: 150px ;
+    transform: translate(200px,-65px);
+}
+.im6{
+    width: 200px;
+    height: 150px;
+    transform: translate(320px,-65px);
+}
+.partenariat{
+    transform: translateX(-216px);
+}

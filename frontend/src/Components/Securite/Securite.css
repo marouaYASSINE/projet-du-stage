@@ -1,0 +1,44 @@
+.BEtude-warmp{
+    text-align: center;
+    color: black;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    
+}
+
+.BEtude-container{
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne si l'espace est insuffisant */
+    justify-content: space-around; /* Pour aligner les valeurs horizontalement */
+}
+.BEtude3 {
+    width: 35rem;
+    position: absolute;
+    transform: translate(30%,-10%);
+    text-align: left;
+}
+.BEtude-text{
+    color: #ff760d;
+    margin-bottom: 1rem;
+}
+.ulll {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding: 0; /* Supprimer les marges intérieures */
+    text-align: left; /* Aligner le texte à gauche */
+}
+.safety{
+    width: 225px;
+    height: auto;
+    transform: translate(200%,-80%);
+}
+.BEtudeImg3 >img{
+    width: 425px;
+    height: 400px;
+    transform: translateX(70%);
+}
+.BEtude-title{
+    margin-bottom: 1rem;
+    transform: translateX(55%);
+}

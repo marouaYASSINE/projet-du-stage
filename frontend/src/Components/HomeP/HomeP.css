@@ -1,0 +1,107 @@
+.h{
+  position: relative;
+  background: white;
+  color: black;
+  width: 1200px;
+  height: 520px;
+}
+
+.home-background {
+   justify-content: space-between;
+   align-items: flex-end;
+  }
+  
+.image-container >img{
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: 50%; 
+    left: 20%; 
+    transform: translate(-40%, 30%); 
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    box-shadow: 0 0 25px rgb(0, 170, 255), 0 0 100px #ff8400;
+    border: 3px solid rgb(255, 255, 255);
+    outline: none;
+    animation:image-move 2s forwards, electric-shadow 5s infinite; /* Utilisez une nouvelle animation pour le shadow */
+}
+@keyframes image-move {
+  0% {
+      transform: translateX(-100%); 
+  }
+  100%{
+      transform: translateX(-50%),translateY(80%);
+  }
+}
+.intro{
+  width: 35rem;
+  height: 35rem;
+  top: 50%; 
+  left: 20%; 
+  transform: translate(100%, -25%); 
+  z-index: 1;
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  animation: electric 2s forwards ;
+}
+@keyframes electric {
+  0% {
+    transform: translate(200%, -25%);
+  }
+  100% {
+    transform: translate(100%, -25%);
+  }
+}
+
+.outer-container {
+  width: 1440px;
+  height: 100px;
+  background-color: rgb(255, 115, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%, -440%);
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  left:10px;
+  transform: translate(-5%, 0%);
+}
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    color: white;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-container span {
+  color: rgb(17, 17, 161);
+  animation: flicker 1s infinite alternate;
+}
+
+.ampersand span {
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+
+
+

@@ -1,0 +1,57 @@
+.domain-wrap {
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+}
+
+.domain-title {
+    color: #022473;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.uper {
+    font-size: 300%;
+}
+
+.domain-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.s-icon{
+    font-size: 3rem;
+    margin: 5px;
+}
+
+.value {
+    width: 30%; /* Largeur de chaque valeur */
+    color: rgb(255, 140, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.value p{
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.square:first-child {
+    margin-right: 5px;
+}
+
+.square:last-child {
+    margin-left: 5%; 
+}
+
+.square:hover .details {
+    display:block;
+}

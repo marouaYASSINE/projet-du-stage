@@ -1,0 +1,11 @@
+
+/* Apply the animation to the image */
+.image > img {
+    position: relative;
+    width: 1040px;
+    height: 650px;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+    z-index: 1;
+}
